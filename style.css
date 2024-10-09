@@ -1,7 +1,7 @@
 /* Base Styles */
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-image: url('Images/background.jpg');
+    background-image: url('background.jpg');
     background-size: cover;
     background-position: center;
     margin: 0;
