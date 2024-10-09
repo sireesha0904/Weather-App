@@ -62,24 +62,24 @@ function getWeatherIcon(iconCode) {
 function getWeatherImage(weather) {
     switch (weather.toLowerCase()) {
         case 'clear':
-            return 'images/clear.jpg';
+            return 'clear.jpg';
         case 'clouds':
-            return 'images/clouds.jpg';
+            return 'clouds.jpg';
         case 'rain':
-            return 'images/rain.jpg';
+            return 'rain.jpg';
         case 'light rain':
-            return 'images/rain.jpg';
+            return 'rain.jpg';
         case 'snow':
-            return 'images/snow.jpg';
+            return 'snow.jpg';
         case 'thunderstorm':
-            return 'images/thunderstorm.jpg';
+            return 'thunderstorm.jpg';
         case 'drizzle':
-            return 'images/drizzle.jpg';
+            return 'drizzle.jpg';
         case 'mist':
-            return 'images/mist.jpg';
+            return 'mist.jpg';
         case 'haze':
-            return 'images/mist.jpg';
+            return 'mist.jpg';
         default:
-            return 'images/default.jpg';
+            return 'default.jpg';
     }
 }
